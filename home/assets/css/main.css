@@ -4144,6 +4144,70 @@ input, select, textarea {
 			margin-bottom: 0;
 			width: 35%;
 		}
+        #footer .slideshow-container {
+            position: relative;
+            background: #f1f1f1f1;
+        }
+        #footer .mySlides {
+            display: none;
+  padding: 80px;
+  text-align: center;
+        }
+        #footer .prev, #footer .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+#footer .next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+#footer .prev:hover, #footer .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+#footer .dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+#footer .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+#footer .active, #footer .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+#footer .mySlides q {font-style: italic; color: #b7475a}
+#footer .mySlides p { color:#b7475a }
+/* Add a blue color to the author */
+#footer .mySlides.author {color: cornflowerblue;}
 
 			#footer .contact li {
 				margin-bottom: 2em;
